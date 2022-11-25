@@ -1,6 +1,7 @@
 package io.github.speedytman.speedytman119minecandy;
 
 import com.mojang.logging.LogUtils;
+import io.github.speedytman.speedytman119minecandy.item.ModItems;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -19,6 +20,8 @@ public class MineCandy {
 
     public MineCandy() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        ModItems.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
