@@ -2,6 +2,10 @@
   "itemGroup.speedytman119minecandy": "Mine Candy",
 
 
-  "item.speedytman119minecandy.rock_candy": "Rock Candy"
+  "item.speedytman119minecandy.candy_crystal": "Candy Crystal",
+  "item.speedytman119minecandy.buff_syringe": "Buff Syringe",
+
+  "block.speedytman119minecandy.deepslate_candy_crystal_ore": "Deepslate Candy Crystal Ore",
+  "block.speedytman119minecandy.candy_crystal_ore": "Candy Crystal Ore"
 
 }

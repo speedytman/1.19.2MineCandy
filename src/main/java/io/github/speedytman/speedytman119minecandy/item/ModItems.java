@@ -12,8 +12,11 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, MineCandy.MODID);
 
-    public static final RegistryObject<Item> ROCK_CANDY = ITEMS.register("rock_candy",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+    //public static final RegistryObject<Item> ROCK_CANDY = ITEMS.register("rock_candy",
+            //() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+
+    public static final RegistryObject<Item> CANDY_CRYSTAL = ITEMS.register("candy_crystal",
+            () -> new Item(new Item.Properties().tab(MineCandy.MINE_CANDY_TAB)));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);

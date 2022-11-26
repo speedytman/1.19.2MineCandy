@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "speedytman119minecandy:block/deepslate_candy_crystal_ore"
+  }
+}

@@ -25,7 +25,7 @@ public class MineCandy {
         @Override
         @OnlyIn(Dist.CLIENT)
         public ItemStack makeIcon() {
-            return new ItemStack(ModItems.ROCK_CANDY.get());
+            return new ItemStack(ModItems.CANDY_CRYSTAL.get());
         }
     };;
     private static final Logger LOGGER = LogUtils.getLogger();
